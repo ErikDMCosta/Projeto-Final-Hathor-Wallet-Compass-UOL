@@ -1,27 +1,27 @@
 # Image API
 
-The Image API utilizes the OpenAI API to generate images based on prompts. It provides a simple and convenient way to generate images programmatically.
+A Image API utiliza a API OpenAI para gerar imagens com base em prompts. Ela fornece uma forma simples e conveniente de gerar imagens programaticamente.
 
-## Setup
+## Configuração
 
-To set up the Image API, follow the instructions below:
+Para configurar a Image API, siga as instruções abaixo:
 
-1. Create a `.env` file:
-   - Make a copy of the `.demo.env` file in the `apis/image-api` directory and rename it to `.env`.
-   - Open the `.env` file and replace the placeholders with the necessary values.
+1. Crie um arquivo `.env`:
+   - Faça uma cópia do arquivo `.demo.env` no diretório `apis/image-api` e renomeie-o para `.env`.
+   - Abra o arquivo `.env` e substitua os espaços reservados pelos valores necessários.
 
-2. Install dependencies:
-   - Run the following command to install the required dependencies:
+2. Instale as dependências:
+   - Execute o seguinte comando para instalar as dependências necessárias:
      ```
      npm install
      ```
 
-3. Start the Image API:
-   - Run the following command to start the Image API:
+3. Inicie a Image API:
+   - Execute o seguinte comando para iniciar a Image API:
      ```
      npm start
      ```
 
-## Example Request
+## Exemplo de Requisição
 
-For an example request to the Image API, please refer to the Postman collection provided in the `collections` folder. The collection includes sample requests and demonstrates how to interact with the API.
+Para um exemplo de requisição à Image API, consulte a coleção do Postman fornecida na pasta `collections`. A coleção inclui requisições de amostra e demonstra como interagir com a API.

@@ -1,14 +1,14 @@
 # Scripts
 
-The `scripts` folder contains useful scripts for setting up and running the Hathor Wallet Headless using Docker.
+A pasta `scripts` contém scripts úteis para configurar e executar a Hathor Wallet Headless usando o Docker.
 
-## Script Descriptions
+## Descrições dos Scripts
 
 ### 01-generate-words.sh
 
-This script is responsible for generating a seed (mnemonic phrase) for the wallet.
+Este script é responsável por gerar uma semente (frase mnemônica) para a carteira.
 
-To run the script, use the following command:
+Para executar o script, utilize o seguinte comando:
 
 ```bash
 ./01-generate-words.sh
@@ -16,22 +16,22 @@ To run the script, use the following command:
 
 ### 02-start-headless-wallet.sh
 
-This script starts the Hathor Wallet Headless API in a Docker container. It requires a 24-words seed phrase as a parameter.
+Este script inicia a API da Hathor Wallet Headless em um contêiner Docker. Ele requer uma frase de semente de 24 palavras como parâmetro.
 
-Open the 02-start-headless-wallet.sh file and replace `<24_words_seed_phrase_string>` with the generated seed or an existing seed.
+Abra o arquivo 02-start-headless-wallet.sh e substitua `<24_words_seed_phrase_string>` pela semente gerada ou por uma semente existente.
 
-To start the Headless Hathor Wallet API, use the following command:
+Para iniciar a API da Headless Hathor Wallet, utilize o seguinte comando:
 
 ```bash
 ./02-start-headless-wallet
 ```
 
-Please note that the `02-start-headless-wallet.sh` script is pre-configured to work on the Hathor testnet. If you intend to use a different network, make the necessary modifications within the script.
+Por favor, observe que o script `02-start-headless-wallet.sh` está pré-configurado para funcionar na rede de teste Hathor. Se você pretende usar uma rede diferente, faça as modificações necessárias dentro do script.
 
-## Getting Started 
+## Começando
 
-Once the Headless Hathor Wallet is up and running, you can interact with it using the provided Postman collection.
+Assim que a Headless Hathor Wallet estiver em execução, você pode interagir com ela usando a coleção do Postman fornecida.
 
-1. Open the Postman application.
-2. Import the Postman collection from the collections folder.
-3. Locate the "headless-hathor-wallet/start" request within the collection.
+1. Abra o aplicativo Postman.
+2. Importe a coleção do Postman a partir da pasta "collections".
+3. Localize a requisição "headless-hathor-wallet/start" dentro da coleção.
