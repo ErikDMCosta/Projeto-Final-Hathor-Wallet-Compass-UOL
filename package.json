@@ -1,0 +1,31 @@
+{
+  "name": "projeto-final-hathor-wallet-compass-uol",
+  "version": "1.0.0",
+  "description": "Neste repositório deixaremos as práticas finais desenvolvidas durante o programa de estágio feitas no projeto final que se encontra na trilha Blockchain Apprentice da Udemy pelo programa de estágio Compass UOL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhDSouza/Projeto-Final-Hathor-Wallet-Compass-UOL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhDSouza/Projeto-Final-Hathor-Wallet-Compass-UOL/issues"
+  },
+  "homepage": "https://github.com/dhDSouza/Projeto-Final-Hathor-Wallet-Compass-UOL#readme",
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2"
+  }
+}
