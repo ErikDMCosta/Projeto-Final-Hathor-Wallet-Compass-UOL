@@ -2,8 +2,9 @@
   "name": "projeto-final-hathor-wallet-compass-uol",
   "version": "1.0.0",
   "description": "Neste repositório deixaremos as práticas finais desenvolvidas durante o programa de estágio feitas no projeto final que se encontra na trilha Blockchain Apprentice da Udemy pelo programa de estágio Compass UOL.",
-  "main": "index.js",
+  "main": "api/app.js",
   "scripts": {
+    "start": "node api/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx eslint",
     "prepare": "husky install"
