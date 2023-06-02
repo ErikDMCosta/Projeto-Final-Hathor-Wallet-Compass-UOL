@@ -1,24 +1,19 @@
-const NFT = require('../models/nft')
+const User = require('../models/user')
 
-async function registerNFT (nftData) {
-  return NFT.create(nftData)
+async function createUser (userData) {
+  return User.create(userData)
 }
 
-async function getAvailableNFTs () {
-  return NFT.find({ sold: false }).populate('seller', 'address')
+async function getUserByWalletId (xWalletId) {
+  return User.findOne({ xWalletId })
 }
 
-async function updateNFTStatus (nftId, sold) {
-  return NFT.findByIdAndUpdate(nftId, { sold })
-}
-
-function getNFTById (nftId) {
-  return NFT.findById(nftId).populate('seller', 'address')
+async function updateUserAdress (userId, address) {
+  return User.findByIdAndUpdate(userId, { address })
 }
 
 module.exports = {
-  registerNFT,
-  getAvailableNFTs,
-  updateNFTStatus,
-  getNFTById
+  createUser,
+  getUserByWalletId,
+  updateUserAdress
 }
